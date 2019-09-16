@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Great+Vibes|Yrsa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header">
+    <h1>Biography Search</h1>
+  </div>
+    <div id="books-container">
+        {% for book in books %}
+        <div class="book">
+               <h3 class="title">{{ book[1] }} </h3>
+           <h5 class="author">{{ book[0] }} </h5>
+           <img src={{ book[5] }}>
+            <div class="review-box">
+                <p class ="box-label">Featured Review</p>
+                <a class="reviewer"> {{ book[8] }} </a>
+                <p class="review"> {{ review }} </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</HTML>

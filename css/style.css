@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    background: #e7af75;
+}
+
+#header {
+    text-align: left;
+    height: 84px;
+    margin-top: -2%;
+    width: 103%;
+    margin-left: -8px;
+    background: #63d2cd;
+}
+h1 {
+    line-height: 98px;
+    color: white;
+    font-size: 34px;
+    margin-left: 11px;
+    font-family: 'Fira Sans', 'sans serif';
+}
+select {
+    margin: 4%;
+    height: 31px;
+    font-size: 19px;
+
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Arapey', 'serif';
+    font-size: 33px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    width: 47%;
+    margin-left: 3%;
+    font-family: 'Yrsa', 'serif';
+    font-size: 27px;
+}
+
+#header-container {
+    text-align: center
+}
+
+input {
+    background: black;
+    border-radius: 7px;
+    border: black;
+    color: white;
+    font-size: 20px;
+    height: 34px;
+    width: 80px;
+}
+
+img {
+    height: 400px;
+    width: 267px;
+}
+
+.title {
+    font-size: 23px;
+    width: 82%;
+    padding-left: 9%;
+}
+
+.author {
+    font-size: 20px;
+}
+.book {
+    width: 22%;
+    display: inline-block;
+    margin-top: 1%;
+}
+#books-container {
+    display: flex;
+    width: 1882px;
+    height: 1800px;
+    justify-content: space-evenly;
+}
+.review-box {
+    border: solid 1.5px black;
+    width: 71%;
+    margin-left: 14%;
+}
+
+.box-label {
+    display: flex;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.reviewer {
+    display: block;
+    padding-top: 5%;
+    font-size: 18px;
+}
+
+.review {
+    display: block;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}

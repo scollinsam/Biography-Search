@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Great+Vibes|Yrsa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header">
+    <h1>Biography Search</h1>
+  </div>
+  <div id="title-container">
+    <h2>
+      GREAT FIGURES OF HISTORY
+    </h2>
+    <h4>Find the best biographies of the world historical figures you most want to read about</h4>
+  </div>  
+    <form action="/interest_input" method="get">
+        What era are you interested in?<select name="eras">
+            <option value="1">Modern Times: 1900-Present</option>
+            <option value="2">19th Century: 1800-1900</option>
+            <option value="3">1600-1800</option>
+            <option value="4">1000-1600</option>
+            <option value="5">0-1000</option>
+            <option value="6">Ancient Times: Before Year 0</option>
+          </select><br>
+        What type of person would you like to read about?<select name="figures">
+          <option value="1">A Political Figure</option>
+          <option value="2">An Artist</option>
+          <option value="3">A Military Leader</option>
+          <option value="4">A Writer or Intellectual</option>
+          <option value="5">A Business Figure</option>
+        </select><br>
+        What part of the world are you interested in?<select name="regions">
+          <option value="1">North America</option>
+          <option value="2">South America</option>
+          <option value="3">Asia</option>
+          <option value="4">Africa</option>
+          <option value="5">South America</option>
+          <option value="6">Europe</option>
+          <option value="7">Oceania</option>
+          <option value="8">other</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</HTML>
